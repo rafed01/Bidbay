@@ -1,0 +1,65 @@
+.container {
+  padding: 20px;
+}
+
+.bid-details {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.image-carousel {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.carousel-image {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.bid-details h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.bid-details p {
+  margin: 10px 0;
+  font-size: 1.1em;
+  color: #333;
+}
+
+.bid-form {
+  margin-top: 20px;
+}
+
+.bid-form input {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.place-bid-btn {
+  background-color: #28a745;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.place-bid-btn:hover {
+  background-color: #218838;
+  transform: translateY(-2px);
+}
+
+.error-message {
+  color: red;
+  margin-top: 10px;
+}
